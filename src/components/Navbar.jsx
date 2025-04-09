@@ -8,7 +8,7 @@ const Navbar = () => {
      <div className="flex justify-between items-center w-[90%] m-auto pt-4 pb-4 sm:w-[80%]">
 
      <div >
-        <img src="/public/logo-light.svg" alt="" />
+        <img src="/logo-light.svg" alt="" />
       </div>
 
       <nav className="flex text-primary font-hind" >
