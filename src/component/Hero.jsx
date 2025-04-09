@@ -1,5 +1,7 @@
 
 import { AiOutlineArrowRight } from "react-icons/ai";
+import Mentor from "../components/Mentor";
+import Fucher from "../page/Fucher";
 
 const Hero = () => {
   return (
@@ -38,7 +40,9 @@ const Hero = () => {
   </div>
 </section>
 
+<Mentor/>
 
+<Fucher/>
       {/*  <section>
         <div>
             <img src="/public" alt=""  />

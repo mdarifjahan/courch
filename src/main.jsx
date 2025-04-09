@@ -15,8 +15,12 @@ const router = createBrowserRouter([
         element:<Home/>
       },
       {
-        path:'/contact',
-        element:<Contact/>
+        path:'/mentor',
+        element:<Mentor/>
+      },
+      {
+        path:'/Fucher',
+        element:<Fucher/>
       },
 
     ]
@@ -26,6 +30,8 @@ import App from './App.jsx'
 import MainLayout from './layout/MainLayout.jsx';
 import Home from './page/Home.jsx';
 import Contact from './page/Contact.jsx';
+import Mentor from './components/Mentor.jsx';
+import Fucher from './page/Fucher.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
