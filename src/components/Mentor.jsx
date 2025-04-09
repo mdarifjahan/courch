@@ -7,7 +7,7 @@ const Mentor = () => {
       <section className='bg-[#0C2F20] md:py-10 py-10 px-4'>
         <div className='flex flex-col-reverse items-center md:flex-row'>
         <div className='w-full md:w-1/2 mt-10 md:mb-0 '>
-            <img className="mx-auto" src="01 (3).webp" alt="" />
+            <img className="mx-auto" src="/01 (3).webp" alt="" />
         </div>
         <div className='w-full md:w-1/2 mb-5 md:mb-0'>
             <h1 className='text-primary md:font-hind md:text-5xl md:font-bold md:leading-tight    text-[1.70rem] font-hind font-bold '>আফটার ইফেক্টসের সবচেয়ে বেশি <br />ব্যবহৃত ফিচার গুলো শিখে নিন <br/> মাত্র <span className='text-secondary'>২১ দিনেই</span></h1>
