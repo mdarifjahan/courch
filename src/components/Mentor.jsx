@@ -14,9 +14,12 @@ const Mentor = () => {
             <h2 className='text-primary md:text-4xl text-3xl font-hind font-bold mt-8 mb-2  '>মেন্টর হিসেবে থাকছে</h2>
             <span className='text-secondary md:text-4xl text-3xl font-hind font-bold pb-4'>জুবায়ের তালুকদার</span>
 
-             <button className="border-red-100 bg-secondary flex justify-center items-center py-2 px-4 rounded-md mt-14 hover:animate-pulse">
+             <button className=" border-red-100 bg-secondary flex justify-center items-center py-2 px-4 rounded-md mt-14 hover:animate-pulse">
                       এনরোল করুন <AiOutlineArrowRight className="ml-2" />
             </button>
+
+
+           
         </div>
         </div>
       
