@@ -17,7 +17,7 @@ const Navbar = () => {
             <Link to ="/"  className="">হোম</Link>
           </li>
           <li>
-            <Link to ="#">কোর্সে’স</Link>
+            <Link to ="/afterEffectsCTA">কোর্সে’স</Link>
           </li>
           <li>
             <Link to ="/mentor">মেন্টর</Link>

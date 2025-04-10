@@ -2,6 +2,7 @@
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Mentor from "../components/Mentor";
 import Fucher from "../page/Fucher";
+import CourchSale from "../components/CourchSale";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
     
     {/* Left Part */}
     <div className="w-full md:w-1/2 text-center md:text-left">
-      <img className="hidden md:block animate-bounce" src="/01 (1).webp" alt="" />
+      <img className="hidden md:block animate-bounce" src="/public/04.webp" alt="" />
       
       <h2 className="text-primary text-3xl md:text-4xl pt-5 font-hind font-bold">
         <span className="text-secondary">আফটার ইফেক্টস</span> ক্র্যাশ কোর্স
@@ -39,7 +40,7 @@ const Hero = () => {
 
   </div>
 </section>
-
+<CourchSale/>
 <Mentor/>
 
 <Fucher/>

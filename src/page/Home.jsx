@@ -1,12 +1,13 @@
 import React from 'react';
 import Hero from '../component/Hero';
 import CourchSale from '../components/CourchSale';
+import Fnq from '../components/Fnq';
 
 const Home = () => {
     return (
         <div>
             <Hero/>
-            <CourchSale/>
+            <Fnq/>
         </div>
     );
 };
