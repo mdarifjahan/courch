@@ -17,7 +17,7 @@ const Courch = () => {
 
           <div className="bg-teal-950 rounded-md md:w- md:h-auto ">
             <div className="overflow-hidden " >
-            <img className="z-0 transfrom motion-safe:hover:scale-110 transition duration-500 rounded-md " src="/public/6780bb5769986.webp" alt="" />
+            <img className="z-0 transfrom motion-safe:hover:scale-110 transition duration-500 rounded-md " src="/6780bb5769986.webp" alt="" />
             </div>
            
 
@@ -54,7 +54,7 @@ const Courch = () => {
         <div className="md:w-[85%] md:m-auto  md:grid md:grid-cols-3 md:object-contain  md:items-center md:gap-10">
 
           <div className="bg-teal-950 rounded-md md:w- md:h-auto ">
-            <img className="z-auto transition-transform duration-300 transform hover:translate-y-2 " src="/public/6780bb5769986.webp" alt="" />
+            <img className="z-auto transition-transform duration-300 transform hover:translate-y-2 " src="/6780bb5769986.webp" alt="" />
             <h1 className="text-primary text-2xl font-hind px-4 font-bold mt-7 mb-7">প্রিমিয়ার প্রো ফান্ডামেন্টাল কোর্স মাত্র ২১ দিনে</h1>
             <hr className="w-80 m-auto text-secondary " />
             <div className="px-6 flex justify-between mt-4  items-center py-6">
