@@ -23,9 +23,10 @@ const router = createBrowserRouter([
         element:<Fucher/>
       },
 
+      
       {
-        path:'/afterEffectsCTA',
-        element:<AfterEffectsCTA/>
+        path:'/Courch-page',
+        element:<Courch/>
       },
     ]
   },
@@ -33,10 +34,11 @@ const router = createBrowserRouter([
 import App from './App.jsx'
 import MainLayout from './layout/MainLayout.jsx';
 import Home from './page/Home.jsx';
-import Contact from './page/Contact.jsx';
+
 import Mentor from './components/Mentor.jsx';
 import Fucher from './page/Fucher.jsx';
 import AfterEffectsCTA from './components/AfterEffectsCTA.jsx';
+import Courch from './page/Courch.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

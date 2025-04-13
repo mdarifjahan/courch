@@ -98,7 +98,7 @@ const CourchSale = () => {
               
         </section>
 
-        <Fucher/>
+      
 
         </>
     );

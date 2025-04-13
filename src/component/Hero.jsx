@@ -3,6 +3,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import Mentor from "../components/Mentor";
 import Fucher from "../page/Fucher";
 import CourchSale from "../components/CourchSale";
+import AfterEffectsCTA from "../components/AfterEffectsCTA";
 
 const Hero = () => {
   return (
@@ -44,18 +45,8 @@ const Hero = () => {
 <Mentor/>
 
 <Fucher/>
-      {/*  <section>
-        <div>
-            <img src="/public" alt=""  />
-        </div>
-       <div>
-
-       </div>
-       </section> */}
-
-
       
-
+<AfterEffectsCTA/>
 
     </>
   );
