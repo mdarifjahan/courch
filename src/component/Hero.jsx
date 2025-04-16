@@ -3,7 +3,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import Mentor from "../components/Mentor";
 import Fucher from "../page/Fucher";
 import CourchSale from "../components/CourchSale";
-import AfterEffectsCTA from "../components/AfterEffectsCTA";
+
 
 const Hero = () => {
   return (
@@ -11,11 +11,11 @@ const Hero = () => {
     <section className="bg-bg-color py-10">
   <div className="container mx-auto px-4 flex flex-col-reverse md:flex-row justify-between items-center  w-[85%]">
     
-    {/* Left Part */}
+    
     <div className="w-full md:w-1/2 text-center md:text-left">
-      <img className="hidden md:block animate-bounce" src="/public/04.webp" alt="" />
+    <img className="hidden md:block animate-bounce" src="/04.webp" alt="" />
       
-      <h2 className="text-primary text-3xl md:text-4xl pt-5 font-hind font-bold">
+      <h2 className="text-primary text-[28px] md:text-4xl pt-5 font-hind font-bold">
         <span className="text-secondary">আফটার ইফেক্টস</span> ক্র্যাশ কোর্স
       </h2>
 
@@ -34,7 +34,7 @@ const Hero = () => {
       </div>
     </div>
 
-    {/* Right Part */}
+   
     <div className="w-full md:w-1/2 mb-5 md:mb-0 ">
       <img className="mx-auto" src="/01 (2).webp" alt="" />
     </div>
@@ -44,9 +44,6 @@ const Hero = () => {
 <CourchSale/>
 <Mentor/>
 
-<Fucher/>
-      
-<AfterEffectsCTA/>
 
     </>
   );

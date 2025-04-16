@@ -1,5 +1,8 @@
 import React from 'react';
 import { AiOutlineArrowRight } from 'react-icons/ai';
+import Fucher from '../page/Fucher';
+import CourseOutline from './CourseOutline';
+import AfterEffectsCTA from './AfterEffectsCTA';
 
 const Mentor = () => {
     return (
@@ -24,7 +27,12 @@ const Mentor = () => {
         </div>
       
       </section>
-       
+
+       <Fucher/>
+       <CourseOutline/>
+    
+
+        <AfterEffectsCTA/>
       </>
     );
 };

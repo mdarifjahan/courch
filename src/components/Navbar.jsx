@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,7 +34,7 @@ const Navbar = () => {
         </nav>
 
         <div className="hidden md:block text-black border-green-700 px-3 py-2 rounded-md bg-secondary hover:bg-opacity-90 transition">
-          <button>Sign in</button>
+          <Link to="/Signup-page">Sign in</Link>
         </div>
 
         {/* Mobile menu button */}
@@ -70,9 +70,9 @@ const Navbar = () => {
                 <Link to="/Fucher" className="block py-2 hover:bg-green-700" onClick={toggleMenu}>ফিচার'স</Link>
               </li>
               <li>
-                <button className="text-black border-green-700 px-3 py-2 rounded-md bg-secondary w-32 mx-auto">
+                <Link to="/Signup-page" className="text-black border-green-700 px-3 py-2 rounded-md bg-secondary w-32 mx-auto">
                   Sign in
-                </button>
+                </Link >
               </li>
             </ul>
           </nav>

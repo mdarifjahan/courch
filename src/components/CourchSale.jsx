@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineArrowRight } from 'react-icons/ai';
-import Fucher from '../page/Fucher';
+
 
 const CourchSale = () => {
     return (
@@ -21,8 +21,6 @@ const CourchSale = () => {
                               এনরোল করুন <AiOutlineArrowRight className="ml-2" />
                     </button>
         
-        
-                   
                 </div>
                 </div>
               
@@ -98,7 +96,7 @@ const CourchSale = () => {
               
         </section>
 
-      
+       
 
         </>
     );
