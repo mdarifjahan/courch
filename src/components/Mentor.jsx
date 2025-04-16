@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import Fucher from '../page/Fucher';
-import CourseOutline from './CourseOutline';
+
 import AfterEffectsCTA from './AfterEffectsCTA';
 
 const Mentor = () => {
@@ -29,7 +29,7 @@ const Mentor = () => {
       </section>
 
        <Fucher/>
-       <CourseOutline/>
+
     
 
         <AfterEffectsCTA/>
